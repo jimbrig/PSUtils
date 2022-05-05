@@ -1,4 +1,31 @@
-site_name: psutils.jimbrig.com
-repo_url: git@github.com:jimbrig/psutils.git
+site_name: PSUtils Documentation
+site_url: https://docs.psutils.jimbrig.com
+site_description: "Documentation for the PowerShell Module PSUtils."
+site_author: Jimmy Briggs
+
+copyright: Jimmy Briggs
+
+remote_branch: gh-pages
+remote_name: origin
+
+repo_url: https://github.com/jimbrig/psutils
+repo_name: GitHub
+
+edit_uri: edit/main/docs/en-US
+
 theme: readthedocs
+
+docs_dir: docs/en-US
+site_dir: site
+
+plugins:
+  - search
+
+# nav:
+#   - Home: index.md
+#   - About: about.md
+#   - Functions: functions/index.md
+#   - 'Issue Tracker': 'https://github.com/jimbrig/psutils/issues'
+
+
 
