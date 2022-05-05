@@ -1,4 +1,4 @@
-name: CI
+name: Build Module
 on: [push, pull_request]
 jobs:
   test:
@@ -7,7 +7,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [ubuntu-latest, windows-latest]
     steps:
     - uses: actions/checkout@v1
     - name: Test
