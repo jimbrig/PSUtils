@@ -28,13 +28,3 @@ jobs:
           
       - name: Print the changelog
         run: cat "${{ steps.git-cliff.outputs.changelog }}"
-        
-      - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "doc: updated CHANGELOG.md"
-          branch: main
-          repository: .
-          commit_user_name: "Jimmy Briggs"
-          commit_user_email: jimmy.briggs@jimbrig.com
-          commit_author: "Jimmy Briggs"
