@@ -38,5 +38,5 @@ jobs:
           # Stage the file, commit and push
           git add CHANGELOG.md
           git commit -m "doc: updated CHANGELOG.md"
-          git push origin master 
+          git push origin main
       
