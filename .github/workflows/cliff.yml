@@ -24,6 +24,19 @@ jobs:
           args: --verbose
         env:
           OUTPUT: CHANGELOG.md
-
+          
       - name: Print the changelog
         run: cat "${{ steps.git-cliff.outputs.changelog }}"
+        
+      - name: Setup Git Config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Commit Changelog
+        run: |
+          # Stage the file, commit and push
+          git add CHANGELOG.md
+          git commit -m "doc: updated CHANGELOG.md"
+          git push origin master 
+      
