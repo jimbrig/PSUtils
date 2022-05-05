@@ -32,7 +32,7 @@ jobs:
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_messsage: "doc: updated CHANGELOG.md"
+          commit_message: "doc: updated CHANGELOG.md"
           branch: main
           repository: .
           commit_user_name: "Jimmy Briggs"
