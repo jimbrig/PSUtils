@@ -23,7 +23,7 @@ Uses the GitHub API to pull the latest release of any app, tool or utility hoste
 
 ### EXAMPLE 1
 ```
-
+Get-LatestGitHubRelease -Repo 'r-darwish/topgrade' -Extensions @('.zip') -DownloadPath "$HOME\Downloads"
 ```
 
 ## PARAMETERS
@@ -53,7 +53,7 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: None
+Default value: @(".zip", ".msixbundle", ".msix", ".msi", ".exe", ".appxbundle", ".appx")
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -68,7 +68,7 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: None
+Default value: "$HOME\Downloads"
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
