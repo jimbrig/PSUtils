@@ -6,6 +6,20 @@ All notable changes to this project will be documented in this file.
 
 ### Configuration
 
+- Update cliff.yml to only use main branch
+- Update actions/checkout to v3
+- Ignore site dir
+- Update mkdocs.yml configurations
+
+### Documentation
+
+- Add build GHA badge to README
+- Update/enhance docs dir
+
+## [0.0.1] - 2022-05-05
+
+### Configuration
+
 - Add initial git files
 - Add cliff.toml
 - Add devcontainer configs
