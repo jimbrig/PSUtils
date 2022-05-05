@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.psutils.jimbrig.com/</loc>
+         <lastmod>2022-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.psutils.jimbrig.com/about/</loc>
+         <lastmod>2022-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.psutils.jimbrig.com/about_PSUtils.help/</loc>
+         <lastmod>2022-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.psutils.jimbrig.com/functions/</loc>
+         <lastmod>2022-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.psutils.jimbrig.com/functions/Get-HelloWorld/</loc>
+         <lastmod>2022-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.psutils.jimbrig.com/functions/Get-LatestGitHubRelease/</loc>
+         <lastmod>2022-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
