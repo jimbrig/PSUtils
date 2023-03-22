@@ -1,18 +1,24 @@
 Function Get-LatestGitHubRelease {
     <#
     .SYNOPSIS
-    Retrieve the latest release from a GitHub repository.
+        Retrieve the latest release from a GitHub repository.
+
     .DESCRIPTION
-    Uses the GitHub API to pull the latest release of any app, tool or utility hosted on GitHub.
-    .NOTES
+        Uses the GitHub API to pull the latest release of any app, tool or utility hosted on GitHub.
+
     .PARAMETER Repo
-    GitHub Repository Reference in the format: <user/org>/<repo>.
+        GitHub Repository Reference in the format: <user/org>/<repo>.
+
     .PARAMETER Extensions
-    Target glob patterns of desired extension to search for.
+        Target glob patterns of desired extension to search for.
+
     .PARAMETER DownloadPath
-    Path to download to, defaults to ~/Downloads.
+        Path to download to, defaults to ~/Downloads.
+
     .EXAMPLE
-    Get-LatestGitHubRelease -Repo 'r-darwish/topgrade' -Extensions @('.zip') -DownloadPath "$HOME\Downloads"
+        Get-LatestGitHubRelease -Repo 'r-darwish/topgrade' -Extensions @('.zip') -DownloadPath "$HOME\Downloads"
+
+        # Retrieve latest GH release asset from the repo 'r-darwish/topgrade' and download to user ~/Downloads path.
     #>
     [CmdletBinding()]
 
