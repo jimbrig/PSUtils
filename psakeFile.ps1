@@ -3,7 +3,7 @@ Properties {
     $PSBPreference.Build.CompileModule = $false
     $PSBPreference.Help.DefaultLocale = 'en-US'
     $PSBPreference.Test.OutputFile = 'out/testResults.xml'
-    $PSBPreference.Test.CodeCoverage.Enabled = $true
+    $PSBPreference.Test.CodeCoverage.Enabled = $false
     $PSBPreference.Test.ScriptAnalysisEnabled = $true
     $PSBPreference.Build.CopyDirectories = @()
 
@@ -44,4 +44,4 @@ Task GenerateYAMLHelp -depends GenerateMarkdown {
 }
 
 
-Task GetHelpPreview Get-HelpPreview -Path .\Docs\en-US\PSXLDevTools-help.xml
+# Task GetHelpPreview Get-HelpPreview -Path .\Docs\en-US\PSUtils-help.xml
