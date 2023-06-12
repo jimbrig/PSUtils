@@ -32,6 +32,7 @@
 
 ### Features
 
+- Fix build and add new funcs
 - Add 6 new gh actions
 - Enhance psakefile
 - Enhance build.ps1
