@@ -4,7 +4,7 @@
 [Keep a Changelog](http://keepachangelog.com/) and this project adheres to
 [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [0.1.1] - 2023-08-04
 
 ### Bug Fixes
 
