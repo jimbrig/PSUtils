@@ -15,10 +15,10 @@ param(
     [pscredential]$PSGalleryApiKey,
 
     # Optional properties to pass to psake
-    [hashtable]$Properties,
+    [hashtable]$Properties = @{},
 
     # Optional parameters to pass to psake
-    [hashtable]$Parameters
+    [hashtable]$Parameters = @{}
 )
 
 $ErrorActionPreference = 'Stop'
