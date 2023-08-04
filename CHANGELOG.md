@@ -12,6 +12,7 @@
 
 ### Configuration
 
+- Update vscode settings
 - Enhance scriptanalyzer settings
 - Update requirements.psd1
 - Enhance cliff.toml
@@ -26,12 +27,24 @@
 
 ### Documentation
 
+- Add some TODO items
 - Add mkdocs requirements.txt
 - Update/enhance docs dir
 - Add build GHA badge to README
 
 ### Features
 
+- Add/update Writers Feedback Functions
+- Add initial unit/integration tests
+- Add various utility functions and template profile
+- Added package, module, and software mgmt functions
+- More file and folder functions
+- Add file and folder functions
+- Add Base64 conversion functions
+- Add private Logging functions
+- Add exceptions with new-methodinvocationexception function
+- Add vscode settings and snippets for powershell as resources
+- Update psm1 module source for resource support other than public and private (classes, enums, exceptions, etc.)
 - Fix build and add new funcs
 - Add 6 new gh actions
 - Enhance psakefile
