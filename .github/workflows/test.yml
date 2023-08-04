@@ -13,5 +13,4 @@ jobs:
       - name: Test
         shell: pwsh
         run: |
-          $result = Start-Job { ./build.ps1 -Task Test -Bootstrap } | Receive-Job -Wait
-          Write-Output $result
+          ./build.ps1 -Task Test -Bootstrap
